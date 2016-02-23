@@ -1,6 +1,6 @@
 # npm module boilerplate
 
-[![npm version](https://badge.fury.io/js/npm-module-boilerplate.svg)](https://badge.fury.io/js/npm-module-boilerplate)
+[![npm version](https://badge.fury.io/js/npm-module-boilerplate.svg)](https://badge.fury.io/js/YOUR-NPM-MODULE)
 [![Dependency Status](https://david-dm.org/jeffijoe/npm-module-boilerplate.svg)](https://david-dm.org/jeffijoe/npm-module-boilerplate)
 [![Build Status](https://travis-ci.org/jeffijoe/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/jeffijoe/npm-module-boilerplate)
 
