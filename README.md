@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/YOUR-NPM-MODULE.svg)](https://badge.fury.io/js/YOUR-NPM-MODULE)
 [![Dependency Status](https://david-dm.org/jeffijoe/npm-module-boilerplate.svg)](https://david-dm.org/jeffijoe/npm-module-boilerplate)
+[![devDependency Status](https://david-dm.org/jeffijoe/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/jeffijoe/npm-module-boilerplate#info=devDependencies)
 [![Build Status](https://travis-ci.org/jeffijoe/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/jeffijoe/npm-module-boilerplate)
 
 A boilerplate for authoring npm modules, with tests and linting.
