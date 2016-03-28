@@ -4,6 +4,8 @@
 [![Dependency Status](https://david-dm.org/jeffijoe/npm-module-boilerplate.svg)](https://david-dm.org/jeffijoe/npm-module-boilerplate)
 [![devDependency Status](https://david-dm.org/jeffijoe/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/jeffijoe/npm-module-boilerplate#info=devDependencies)
 [![Build Status](https://travis-ci.org/jeffijoe/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/jeffijoe/npm-module-boilerplate)
+[![Coverage Status](https://coveralls.io/repos/github/jeffijoe/npm-module-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/jeffijoe/npm-module-boilerplate?branch=master)
+[![Code Climate](https://codeclimate.com/github/jeffijoe/npm-module-boilerplate/badges/gpa.svg)](https://codeclimate.com/github/jeffijoe/npm-module-boilerplate)
 
 A boilerplate for authoring npm modules, with tests and linting.
 
@@ -23,6 +25,8 @@ Well, let me tell you!
 * `npm run test-watch`: Runs tests in watch-mode
 * `npm run lint`: Lints the code once
 * `npm run lint-watch`: Lints the code in watch-mode
+* `npm run cover`: Runs code coverage using `istanbul`
+* `npm run coveralls`: Used by coveralls
 
 ## Getting started
 
@@ -34,7 +38,7 @@ Well, let me tell you!
 4. `npm install` and start coding! open 2 terminals, one for linting (`npm run lint-watch`) and one for testing (`npm run test-watch`) - at least that's what I do. ;)
 5. Write your code in `lib/npm-module-boilerplate.js` (this is the main file)
 6. Write your tests in `test/lib/npm-module-boilerplate.spec.js` (.. or, don't?)
-7. Profit!
+7. Publish!
 
 # Author
 
