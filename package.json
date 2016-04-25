@@ -28,9 +28,10 @@
   "homepage": "https://github.com/jeffijoe/npm-module-boilerplate#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^2.5.1",
+    "coveralls": "^2.11.9",
+    "eslint": "^2.8.0",
     "eslint-watch": "^2.1.10",
-    "istanbul": "^0.4.2",
+    "istanbul": "^0.4.3",
     "mocha": "^2.4.5",
     "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0"
