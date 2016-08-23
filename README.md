@@ -1,11 +1,12 @@
-# npm module boilerplate
+# npm-module-boilerplate
 
-[![npm version](https://badge.fury.io/js/YOUR-NPM-MODULE.svg)](https://badge.fury.io/js/YOUR-NPM-MODULE)
+[![npm version](https://badge.fury.io/js/YOUR-NPM-MODULE.svg)](https://badge.fury.io/js/npm-module-boilerplate)
 [![Dependency Status](https://david-dm.org/jeffijoe/npm-module-boilerplate.svg)](https://david-dm.org/jeffijoe/npm-module-boilerplate)
 [![devDependency Status](https://david-dm.org/jeffijoe/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/jeffijoe/npm-module-boilerplate#info=devDependencies)
 [![Build Status](https://travis-ci.org/jeffijoe/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/jeffijoe/npm-module-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/jeffijoe/npm-module-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/jeffijoe/npm-module-boilerplate?branch=master)
 [![Code Climate](https://codeclimate.com/github/jeffijoe/npm-module-boilerplate/badges/gpa.svg)](https://codeclimate.com/github/jeffijoe/npm-module-boilerplate)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 A boilerplate for authoring npm modules, with tests and linting.
 
