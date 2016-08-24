@@ -7,12 +7,12 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "test": "mocha test/**/*.js --require test/index.js",
+    "test": "mocha test/**/*.spec.js --require test/index.js",
     "test-watch": "npm run test -- --watch",
     "lint": "esw lib/ test/",
     "lint-watch": "npm run lint -- --watch",
-    "cover": "istanbul cover  -x \"**example/**\" ./node_modules/mocha/bin/_mocha -- test/**/*.js --require test/index.js",
-    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- test/**/*.js --require test/index.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "cover": "nyc --reporter=lcov --reporter=text npm test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "do-publish": "npm run lint && npm run cover && npm publish"
   },
   "repository": {
@@ -34,10 +34,15 @@
     "eslint-plugin-promise": "^2.0.1",
     "eslint-plugin-standard": "^2.0.0",
     "eslint-watch": "^2.1.14",
-    "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
+    "nyc": "^8.1.0",
     "sinon": "^1.17.5",
     "sinon-chai": "^2.8.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "nyc": {
+    "include": [
+      "lib/**/*.js"
+    ]
+  }
 }
