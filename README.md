@@ -1,11 +1,14 @@
 # npm-module-boilerplate
 
-[![npm version](https://badge.fury.io/js/YOUR-NPM-MODULE.svg)](https://badge.fury.io/js/npm-module-boilerplate)
-[![Dependency Status](https://david-dm.org/jeffijoe/npm-module-boilerplate.svg)](https://david-dm.org/jeffijoe/npm-module-boilerplate)
-[![devDependency Status](https://david-dm.org/jeffijoe/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/jeffijoe/npm-module-boilerplate#info=devDependencies)
-[![Build Status](https://travis-ci.org/jeffijoe/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/jeffijoe/npm-module-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/jeffijoe/npm-module-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/jeffijoe/npm-module-boilerplate?branch=master)
-[![Code Climate](https://codeclimate.com/github/jeffijoe/npm-module-boilerplate/badges/gpa.svg)](https://codeclimate.com/github/jeffijoe/npm-module-boilerplate)
+[![npm](https://img.shields.io/npm/v/npm-module-boilerplate.svg?maxAge=1000)](https://www.npmjs.com/package/npm-module-boilerplate)
+[![dependency Status](https://img.shields.io/david/jeffijoe/npm-module-boilerplate.svg?maxAge=1000)](https://david-dm.org/jeffijoe/npm-module-boilerplate)
+[![devDependency Status](https://img.shields.io/david/dev/jeffijoe/npm-module-boilerplate.svg?maxAge=1000)](https://david-dm.org/jeffijoe/npm-module-boilerplate)
+[![Build Status](https://img.shields.io/travis/jeffijoe/npm-module-boilerplate.svg?maxAge=1000)](https://travis-ci.org/jeffijoe/npm-module-boilerplate)
+[![Coveralls](https://img.shields.io/coveralls/jeffijoe/npm-module-boilerplate.svg?maxAge=1000)](https://coveralls.io/github/jeffijoe/npm-module-boilerplate)
+[![Code Climate](https://img.shields.io/codeclimate/github/jeffijoe/npm-module-boilerplate.svg?maxAge=1000)](https://codeclimate.com/github/jeffijoe/npm-module-boilerplate)
+[![npm](https://img.shields.io/npm/dt/npm-module-boilerplate.svg?maxAge=1000)](https://www.npmjs.com/package/npm-module-boilerplate)
+[![npm](https://img.shields.io/npm/l/npm-module-boilerplate.svg?maxAge=1000)](https://github.com/jeffijoe/npm-module-boilerplate/blob/master/LICENSE.md)
+[![node](https://img.shields.io/node/v/npm-module-boilerplate.svg?maxAge=1000)](https://www.npmjs.com/package/npm-module-boilerplate)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 A boilerplate for authoring npm modules, with tests and linting.
