@@ -17,20 +17,21 @@ A boilerplate for authoring npm modules, with tests and linting.
 
 Well, let me tell you!
 
-* `mocha`, `sinon` and `chai` for tests
+* `ava` and `sinon` for tests
+* `nyc` for code coverage
 * `eslint-watch` for linting
-    * includes a set of `.eslintrc` files, one for the entire thing and one for tests only (making it `chai-should`-friendly)
 * `npm run` scripts for the above, so you won't have to install any global packages while authoring your module (I hate global modules, *grr*)
 * `.travis.yml` for CI
 
 ## `npm run` scripts
 
 * `npm run test`: Runs tests once
-* `npm run test-watch`: Runs tests in watch-mode
+* `npm run test:watch`: Runs tests in watch-mode
 * `npm run lint`: Lints the code once
-* `npm run lint-watch`: Lints the code in watch-mode
+* `npm run lint:watch`: Lints the code in watch-mode
 * `npm run cover`: Runs code coverage using `nyc` (`istanbul`)
 * `npm run coveralls`: Used by coveralls
+* `npm run do-publish`: Used when publishing the package.
 
 ## Getting started
 

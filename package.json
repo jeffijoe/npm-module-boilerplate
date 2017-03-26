@@ -2,18 +2,26 @@
   "name": "npm-module-boilerplate",
   "version": "0.0.1",
   "description": "A boilerplate for authoring npm modules",
-  "main": "lib/npm-module-boilerplate.js",
+  "main": "lib/index.js",
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6.0.0"
   },
   "scripts": {
-    "test": "mocha test/**/*.spec.js --require test/index.js",
-    "test-watch": "npm run test -- --watch",
+    "test": "ava 'test/**/*.test.js'",
+    "test:watch": "npm run test -- --watch",
     "lint": "esw lib/ test/",
-    "lint-watch": "npm run lint -- --watch",
+    "lint:watch": "npm run lint -- --watch",
     "cover": "nyc npm test",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "do-publish": "npm run lint && npm run cover && npm publish"
+  },
+  "files": [
+    "lib",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "directories": {
+    "lib": "lib"
   },
   "repository": {
     "type": "git",
@@ -27,17 +35,22 @@
   },
   "homepage": "https://github.com/jeffijoe/npm-module-boilerplate#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "coveralls": "^2.11.12",
-    "eslint": "^3.3.1",
-    "eslint-config-standard": "^6.0.0-beta.3",
-    "eslint-plugin-promise": "^2.0.1",
-    "eslint-plugin-standard": "^2.0.0",
-    "eslint-watch": "^2.1.14",
-    "mocha": "^3.0.2",
-    "nyc": "^8.2.0-candidate2",
-    "sinon": "^1.17.5",
-    "sinon-chai": "^2.8.0"
+    "ava": "^0.18.2",
+    "babel-register": "^6.24.0",
+    "coveralls": "^2.12.0",
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "eslint-watch": "^3.0.1",
+    "nyc": "^10.1.2",
+    "sinon": "^2.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  }
 }
